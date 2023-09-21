@@ -1,0 +1,12 @@
+#settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+#container{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid black;
+}

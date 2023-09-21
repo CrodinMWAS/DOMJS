@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="settings">
+        <input type="range" id="tileNumber" value="3" min="2" max="10" oninput="changeBoard()">
+        <label for="tileNumber">Mezők Száma</label>
+        <input type="range" id="tileSize" min="30" max="100" value="80" oninput="changeBoard()">
+        <label for="tileSize">Mezők Mérete</label>
+    </div>
+    <div id="container">
+        <div id="row"></div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
